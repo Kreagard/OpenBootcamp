@@ -1,0 +1,75 @@
+public class MyClass {
+    public static void main(String args[]) {
+        Persona datosPersona = new Persona();
+        datosPersona.setEdad(33);
+        datosPersona.setNombre("Alan");
+        datosPersona.setTelefono(602884599);
+        
+        Cliente datosCliente = new Cliente();
+        datosCliente.setCredito(5000);
+        
+        System.out.println("Los datos como cliente son:");
+        System.out.println(datosPersona.getEdad());
+        System.out.println(datosPersona.getNombre());
+        System.out.println(datosPersona.getTelefono());
+        System.out.println(datosCliente.getCredito()+ "\n");
+        
+        Trabajador datosTrabajador = new Trabajador();
+        datosTrabajador.setSalario(1000);
+        
+        System.out.println("Los datos como trabajador son:");
+        System.out.println(datosPersona.getEdad());
+        System.out.println(datosPersona.getNombre());
+        System.out.println(datosPersona.getTelefono());
+        System.out.println(datosTrabajador.getSalario());
+    }
+}
+class Persona {
+    int edad;
+    String nombre;
+    int telefono;
+    
+    public void setEdad(int edad) {
+        this.edad = edad;
+    }
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+    public void setTelefono(int telefono) {
+        this.telefono = telefono;
+    }
+        
+    public int getEdad () {
+        return this.edad;
+    }
+    public String getNombre () {
+        return this.nombre;
+    }
+    public int getTelefono () {
+        return this.telefono;
+    }    
+}
+
+class Cliente extends Persona {
+    int credito;
+    
+    public void setCredito(int credito) {
+        this.credito = credito;
+    }
+    
+    public int getCredito () {
+        return this.credito;
+    }
+}
+
+class Trabajador extends Persona {
+    int salario;
+    
+    public void setSalario(int salario) {
+        this.salario = salario;
+    }
+    
+    public int getSalario () {
+        return this.salario;
+    }
+}
