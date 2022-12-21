@@ -1,0 +1,31 @@
+public class NuevaClase {
+    public static void main(String[] args) {
+
+        //Datos numéricos
+        byte numero1 = 5;
+        int numero2 = 34;
+        long telefono = 656567987;
+
+        //Datos decimales
+        double decimal1 = 2.2d;
+        float decimal3 = 3.3f;
+
+        //Datos booleanos
+        boolean verdadero = true;
+        boolean falso = false;
+
+        //Datos con letras
+        char caracter = 'a';
+        String palabra = "hola";
+
+        System.out.println(numero1);
+        System.out.println(numero2);
+        System.out.println(telefono);
+        System.out.println(decimal1);
+        System.out.println(decimal3);
+        System.out.println(verdadero);
+        System.out.println(falso);
+        System.out.println(caracter);
+        System.out.println(palabra);
+    }
+}
