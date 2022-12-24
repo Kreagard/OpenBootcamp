@@ -1,5 +1,6 @@
 # OpenBootcamp
-<img style="float: left;" src="https://cdn-icons-png.flaticon.com/512/827/827674.png" width="25"/>Mi nombre es: Alan, y aquí se encuentran subidos, todos los ejercicios del campus Open Bootcamp.
+<img style="float: left;" src="https://cdn-icons-png.flaticon.com/512/827/827674.png" width="25"/>&nbsp;
+<p>Mi nombre es: Alan, y aquí se encuentran subidos, todos los ejercicios del campus Open Bootcamp.</p>
 
 Llevo estudiando programación desde el 2021, y esta es uno de mis rutas de estudio. 
 
