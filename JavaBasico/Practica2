@@ -1,0 +1,9 @@
+public class Ejercicio2 {
+    public static void main(String[] args) {
+
+        System.out.println(precioConIva(100));
+    }
+    public static double precioConIva (double precio) {
+        return precio + precio * 0.21;
+    }
+}
